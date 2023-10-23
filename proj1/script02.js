@@ -1,5 +1,5 @@
-var counter=document.getElementById("counter");
-var followers=document.getElementById("followers");
+var counter=document.getElementById("counter-id");
+var followers=document.getElementById("followers-id");
 
 counter.innerText=1000;
 let count=1;
