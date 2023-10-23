@@ -1,0 +1,39 @@
+body{
+    background: rgb(66, 66, 66);
+    justify-content: center;
+    color: aliceblue;
+
+    
+}
+.container {
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+  }
+  
+  .color {
+    width: 100px;
+    height: 40px;
+    margin: 300px 10px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .cyan {
+    background-color: cyan;
+  }
+  
+  .violet {
+    background-color: violet;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
