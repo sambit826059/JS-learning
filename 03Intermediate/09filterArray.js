@@ -22,10 +22,10 @@ const result = myNumber.filter((number)=> number > 85 );    //filter() used to s
 var users=["Radha","Shyam","Bheem","Anjana","Ahalya","Nakul","Krishna"];
 
 //console.log(users.slice(1 /* inclusive */, 3 /* exclusive */ ));      //Arguments point to indices. The starting index is inclusive and the ending index is exclusive
-console.log(users.slice(3));        // cuts the array from o to 3rd index
+console.log(users.slice(3));        // cuts the array from o to 2nd index
 
 
-//users.splice(0,0,"BYE");            //replaces the 0 th index only as it is the start as well as end point
+//users.splice(0,0,"BYE");            //replaces the 0th index only as it is the start as well as end point
 //users.splice(1,3,"inserted");         //replaces from index 1 to 3 with "inserted"
 //console.log(users);
 

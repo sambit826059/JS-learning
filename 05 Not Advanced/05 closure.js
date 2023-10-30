@@ -15,6 +15,6 @@ function doAddition(x){
     }
 }
 var add5 = doAddition(5);
-console.log(add5(4));
+console.log("Line 18: "+add5(4));
 
 console.log(doAddition(7)(6));  //curring

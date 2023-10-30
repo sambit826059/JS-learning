@@ -1,7 +1,7 @@
 //show user a sign out button if he is authenticated,
 //otherwise show him options to login/signup
 
- var authenticated=true;
+ var authenticated=false;
 
 // if(authenticated){
 //     console.log("sign out");
@@ -11,3 +11,4 @@
 
 authenticated ? console.log("sign out") 
 :console.log("log in/sign up")
+

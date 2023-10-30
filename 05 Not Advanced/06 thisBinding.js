@@ -20,10 +20,12 @@ const dj = {
     courseCount: 2,
 };
 
+// console.log("at 23rd line");
 // sam.getInfo();
+// console.log("at 25th line");
 // dj.getInfo();
 
 var djInfo = sam.getInfo.bind(dj);  //bind gives refernce. we have to call it to log it
-// djInfo();
+djInfo();
 
-sam.getInfo.call(dj);               //call directly logs the properties
+// sam.getInfo.call(dj);               //call directly logs the properties

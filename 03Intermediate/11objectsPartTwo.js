@@ -12,15 +12,15 @@ var user = {
         return `${this.firstName} is enrolled in total of ${this.courseList.length} courses`;
     },
     //info : [],
-    info : function(insertProps){
+    info : function(insertProps){           //the argument passed in not necessary.BUt its a good practice for further development
         return{
             firstName: this.firstName,
             lastName: this.lastName,
             role: this.role,
             loginCount: this.loginCount,
             facebookSignedIn: this.facebookSignedIn,
-            courseList: this.courseList,   // ----------------|
-            getCourseCount: this.getCourseCount() // -----------> ??????   check why here function is called but in upper line fuction is refered 
+            courseList: this.courseList,
+            getCourseCount: this.getCourseCount()
         };
     }
 };

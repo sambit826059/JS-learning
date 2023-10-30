@@ -14,4 +14,7 @@ for (let [key,value] of myMaps) {
     console.log(`key is ${key} and value is ${value}`);
 }
 
-myMaps.forEach ((value,key) => console.log(`value is ${value} and key is ${key}`));     //foreach returns the values.whaever the argument is provide a single argument
+myMaps.forEach ((value,key) => console.log(`value is ${value} and key is ${key}`));     
+
+// console.log(`At line 18`);
+// myMaps.forEach((key) => console.log(`key is ${key}`));       //foreach returns the values.whenever provided with a single argument

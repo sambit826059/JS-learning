@@ -37,6 +37,7 @@ bigTipper("205")    //doesn't give error
 */
 
 console.log(name);
+console.log("before and outside the function");
 var name="Sam";     //output is undefined. 
 
 function sayName(){
@@ -47,6 +48,8 @@ function sayName(){
 sayName();  //after excution of this line excution context removes name related to sayName() function and gets the context outside the method.
             //when sayName() was executed the context was valid till the function call was there .after the function was called, it didn't have that context outside the method
 console.log(name);
+console.log("^ after and outside the function");
+
 
 /*link to the time stamp where the video is:
 https://youtu.be/9Ta1umc3tkQ?si=nLfQQJ1TpPWZjYcC
