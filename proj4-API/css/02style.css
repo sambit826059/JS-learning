@@ -50,6 +50,7 @@ body {
     opacity: 0.4;
     width: 200px;
     height: 80px;
+    transition: 0.9s ease-in-out;
 }
 .play-button:hover {
     background-color:blanchedalmond;
