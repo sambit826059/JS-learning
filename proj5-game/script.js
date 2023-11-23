@@ -44,6 +44,7 @@ function fail() {
     setTimeout ( () => {
     firstCard.classList.remove("flip");     //here firstCard.this.classList.remove() is wrong if used .refer to flip method
     secondCard.classList.remove("flip");
+    reset();
     }, 1000);
     
 }
